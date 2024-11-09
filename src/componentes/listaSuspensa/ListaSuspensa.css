@@ -13,3 +13,22 @@
     padding: 24px;
     box-sizing: border-box;
 }
+
+.label-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.5rem; /* Espaçamento entre o rótulo e o campo select */
+  }
+  
+  .new-team-link {
+    font-size: 0.9em;
+    color: #007bff;
+    text-decoration: none;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  
+  .new-team-link:hover {
+    text-decoration: underline;
+  }
